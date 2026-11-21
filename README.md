@@ -401,7 +401,6 @@ ibca-lab/
 ├── SECURITY.md
 ├── .gitignore
 ├── .editorconfig
-├── pyproject.toml
 │
 ├── assets/
 │   ├── logo/
@@ -425,16 +424,18 @@ ibca-lab/
 │   └── quantitative-bioimaging/
 │
 ├── ibca_core/
-│   └── src/
-│       └── ibca_core/
-│           ├── models/
-│           ├── representations/
-│           ├── evaluation/
-│           ├── imaging/
-│           └── utils/
-│
-├── tests/
-├── examples/
+│   ├── pyproject.toml
+│   ├── README.md
+│   ├── LICENSE
+│   ├── src/
+│   │   └── ibca_core/
+│   │       ├── models/
+│   │       ├── representations/
+│   │       ├── evaluation/
+│   │       ├── imaging/
+│   │       └── utils/
+│   ├── tests/
+│   └── examples/
 │
 └── .github/
     ├── ISSUE_TEMPLATE/
@@ -485,7 +486,8 @@ source .venv/bin/activate
 Install the package in editable mode once its initial package configuration is available:
 
 ```bash
-pip install -e .
+cd ibca_core
+pip install -e ".[dev]"
 ```
 
 Run tests:
