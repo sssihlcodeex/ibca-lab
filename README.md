@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://codeex.space/">CodeEX</a> ·
   <a href="https://github.com/sssihlcodeex/ibca-lab">GitHub Repository</a> ·
-  <a href="https://saipradyumnat.codeex.space/">Lab Website</a>
+  <a href="https://ibca.codeex.space/">Lab Website</a>
 </p>
 
 ---
